@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# Dataset files
+data/raw/
+data/processed/*.csv
+
+# Model artifacts
+model/*
+!model/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+ai-comment-moderation.iml
